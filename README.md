@@ -110,3 +110,82 @@ Tracks:
 ---
 
 ## 📂 Project Structure
+📦 project-root
+┣ 📂 notebooks
+┃ ┣ full_load.py
+┃ ┣ scd1_load.py
+┃ ┗ scd2_load.py
+┣ 📂 sql_scripts
+┃ ┗ create_tables.sql
+┣ 📂 metadata
+┃ ┗ master_table.sql
+┣ 📂 docs
+┃ ┗ architecture.png
+┗ README.md
+
+
+---
+
+## ▶️ How to Run
+
+### 1️⃣ Setup Azure Resources
+- Create Resource Group
+- Create Azure SQL Database
+- Create Azure Databricks Workspace
+
+### 2️⃣ Load Source Data
+- Create tables in Azure SQL
+- Insert sample data
+
+### 3️⃣ Configure Metadata Table
+- Insert records for each pipeline
+
+### 4️⃣ Execute Pipelines
+- Pass `batch_id` as parameter
+- Run respective notebook:
+  - Full Load
+  - SCD1
+  - SCD2
+
+---
+
+## 📊 Sample Output
+
+### Gold Layer View
+`gold.customer_sales_summary`
+
+Includes:
+- Customer details
+- Total sales value
+- Last order date
+- Active status
+
+---
+
+## 🚧 Data Quality Handling
+
+- Null checks
+- Invalid records filtering
+- Duplicate removal
+- Negative values handling
+
+---
+
+## 📈 Future Enhancements
+
+- Add orchestration using Azure Data Factory / Fabric Pipelines
+- Implement logging & monitoring
+- Add unit testing framework
+- Integrate Power BI dashboards
+
+---
+
+## 👩‍💻 Author
+
+**Dipti Meghare**  
+Data Engineer | Azure | PySpark | SQL  
+
+---
+
+## ⭐ If you like this project
+Give it a ⭐ on GitHub and feel free to fork!
