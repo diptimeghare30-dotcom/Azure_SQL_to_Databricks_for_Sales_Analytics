@@ -118,23 +118,6 @@ Tracks:
 
 ---
 
-## 📂 Project Structure
-📦 project-root
-┣ 📂 notebooks
-┃ ┣ full_load.py
-┃ ┣ scd1_load.py
-┃ ┗ scd2_load.py
-┣ 📂 sql_scripts
-┃ ┗ create_tables.sql
-┣ 📂 metadata
-┃ ┗ master_table.sql
-┣ 📂 docs
-┃ ┗ architecture.png
-┗ README.md
-
-
----
-
 ## ▶️ How to Run
 
 ### 1️⃣ Setup Azure Resources
