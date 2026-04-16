@@ -7,6 +7,11 @@ The pipeline ingests data from Azure SQL, performs data cleansing and transforma
 
 ---
 
+## Architecture Diagram
+![Architecture Diagram](architecture_diagram.png)
+
+---
+
 ## 🏗️ Architecture Overview
 
 ### 🔹 Source System
