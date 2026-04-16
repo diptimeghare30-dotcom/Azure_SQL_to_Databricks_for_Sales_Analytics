@@ -61,6 +61,10 @@ Example:
 
 ---
 
+## Data Model
+![Data MOdel](Data_model.png)
+
+---
 ## ⚙️ Metadata-Driven Framework
 
 ### 📄 metadata.master_tble
@@ -183,14 +187,3 @@ Includes:
 - Add unit testing framework
 - Integrate Power BI dashboards
 
----
-
-## 👩‍💻 Author
-
-**Dipti Meghare**  
-Data Engineer | Azure | PySpark | SQL  
-
----
-
-## ⭐ If you like this project
-Give it a ⭐ on GitHub and feel free to fork!
